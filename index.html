@@ -30,12 +30,18 @@
             color: white;
             position: relative;
 
-            background-image: url(timzy3.jpg); /* Replace with your image */
+            background-image: url(timzy12.jpeg); /* Replace with your image */
             background-size: cover;
             background-position: right center;
             background-repeat: no-repeat;
+            min-height: 100vh;
         }
-     
+     @media (min-width: 1200px) {
+    .hero-section {
+        background-position: center center; /* centers the face horizontally */
+        background-size: auto 100%;         /* scale height to fit screen */
+    }
+}
 
         /* Dark gradient overlay */
         .hero::before {
@@ -595,5 +601,6 @@
 
 </body>
 </html>
+
 
 
